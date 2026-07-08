@@ -1,0 +1,5 @@
+print("=== Diagnóstico inicial de Python ===")
+print("1. Python instalado correctamente")
+print("2. Puedo ejecutar archivos .py")
+print("3. Puedo usar la terminal")
+print("4. Estoy listo para iniciar fundamentos")

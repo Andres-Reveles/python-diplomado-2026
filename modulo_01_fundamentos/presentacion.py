@@ -1,0 +1,5 @@
+print("=== Presentación ===")
+print("Nombre: Ángel Andrés")
+print("Curso: Python Profesional 2026")
+print("Objetivo: aprender Python para automatización, backend, datos y proyectos laborales")
+print("Estado: entorno configurado correctamente")
