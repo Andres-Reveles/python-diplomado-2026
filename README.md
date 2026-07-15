@@ -58,3 +58,24 @@ En esta clase practiqué ciclos while y for, además de break y continue. Implem
 - menu_repetitivo.py
 - calculadora_repetitiva.py
 - registro_calificaciones.py
+
+## Clase 5 - Listas básicas
+
+En esta clase practiqué listas en Python. Aprendí a crear listas, acceder a elementos por índice, agregar elementos con append, eliminar con remove y pop, buscar elementos con in y not in, recorrer listas con for y enumerate, y calcular datos como suma, promedio, mayor y menor.
+
+También desarrollé un sistema de alumnos con lista y un sistema de calificaciones con menú.
+
+### Evidencia
+- listas_basicas.py
+- listas_len.py
+- listas_append.py
+- recorrer_listas.py
+- sumar_lista.py
+- promedio_lista.py
+- capturar_calificaciones_lista.py
+- buscar_en_lista.py
+- validar_no_repetido.py
+- eliminar_lista.py
+- recorrer_con_indice.py
+- sistema_alumnos_lista.py
+- sistema_calificaciones_lista.py
