@@ -30,3 +30,16 @@ En esta clase practiqué operadores matemáticos, operadores de comparación y o
 - calculadora_basica.py
 - calculadora_basica_validada.py
 - validador_compra.py
+
+## Clase 3 - Condicionales y validaciones básicas
+
+En esta clase practiqué estructuras condicionales con if, elif y else. También implementé validaciones básicas, menús en consola, una calculadora con menú y validación de división entre cero, un validador de compra mejorado y un sistema de acceso a evento.
+
+### Evidencia
+- condicionales_basicas.py
+- clasificador_edad.py
+- clasificador_calificacion.py
+- menu_basico.py
+- menu_calculadora.py
+- validador_compra_mejorado.py
+- sistema_acceso_evento.py
