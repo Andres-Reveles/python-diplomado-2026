@@ -43,3 +43,18 @@ En esta clase practiqué estructuras condicionales con if, elif y else. También
 - menu_calculadora.py
 - validador_compra_mejorado.py
 - sistema_acceso_evento.py
+
+## Clase 4 - Ciclos básicos
+
+En esta clase practiqué ciclos while y for, además de break y continue. Implementé menús repetitivos, una calculadora que se repite hasta elegir salir y un registro de calificaciones que valida datos, ignora calificaciones inválidas y calcula promedio.
+
+### Evidencia
+- contador_while.py
+- repetir_mensaje.py
+- repetir_mensaje_break.py
+- numeros_continue.py
+- contador_for.py
+- tabla_multiplicar.py
+- menu_repetitivo.py
+- calculadora_repetitiva.py
+- registro_calificaciones.py
