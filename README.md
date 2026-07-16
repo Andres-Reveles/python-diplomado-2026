@@ -79,3 +79,27 @@ También desarrollé un sistema de alumnos con lista y un sistema de calificacio
 - recorrer_con_indice.py
 - sistema_alumnos_lista.py
 - sistema_calificaciones_lista.py
+
+## Clase 6 - Tuplas, diccionarios y sets básicos
+
+En esta clase practiqué las principales colecciones de Python además de listas. Aprendí a usar tuplas para datos fijos, diccionarios para representar registros con clave y valor, listas de diccionarios para manejar varios registros y sets para trabajar con valores únicos.
+
+También desarrollé un sistema de alumnos usando diccionarios, validaciones, búsqueda, eliminación y cálculo de promedio general.
+
+### Evidencia
+- tuplas_basicas.py
+- recorrer_tupla.py
+- desempaquetado_tupla.py
+- diccionarios_basicos.py
+- modificar_diccionario.py
+- agregar_diccionario.py
+- eliminar_diccionario.py
+- validar_clave_diccionario.py
+- recorrer_diccionario.py
+- lista_diccionarios.py
+- registrar_alumnos_diccionario.py
+- sets_basicos.py
+- sets_agregar.py
+- sets_eliminar.py
+- lista_a_set.py
+- sistema_alumnos_diccionario.py
