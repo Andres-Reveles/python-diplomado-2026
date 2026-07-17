@@ -103,3 +103,19 @@ También desarrollé un sistema de alumnos usando diccionarios, validaciones, b�
 - sets_eliminar.py
 - lista_a_set.py
 - sistema_alumnos_diccionario.py
+
+## Clase 7 - Colecciones aplicadas e inventario básico
+
+En esta clase reforcé el uso de listas de diccionarios aplicadas a un inventario de productos. Practiqué búsqueda, actualización, eliminación, registro con código único y cálculo del valor total del inventario.
+
+También desarrollé un inventario básico con menú en consola usando listas, diccionarios, ciclos, condicionales y validaciones.
+
+### Evidencia
+- productos_basicos.py
+- buscar_producto.py
+- actualizar_precio_producto.py
+- actualizar_stock_producto.py
+- eliminar_producto.py
+- valor_inventario.py
+- registrar_producto.py
+- inventario_basico.py
