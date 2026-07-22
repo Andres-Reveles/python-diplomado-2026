@@ -184,3 +184,23 @@ También refactoricé el sistema de inventario usando funciones para separar res
 - funcion_filtrar_productos.py
 - funcion_ordenar_productos.py
 - inventario_con_funciones.py
+
+## Clase 11 - Funciones II
+
+En esta clase reforcé el uso de funciones en Python aprendiendo scope de variables, variables locales y globales, parámetros por defecto, funciones reutilizables de validación, manejo básico de errores con try/except, *args, **kwargs y docstrings.
+
+También mejoré el inventario creando funciones para validar texto, pedir precios positivos y pedir stock no negativo, evitando que el programa falle si el usuario ingresa datos inválidos.
+
+### Evidencia
+- scope_basico.py
+- scope_mismo_nombre.py
+- scope_return.py
+- parametros_por_defecto.py
+- parametros_iva.py
+- validaciones_reutilizables.py
+- pedir_numero_validado.py
+- pedir_numero_con_reglas.py
+- args_basico.py
+- kwargs_basico.py
+- docstrings_basico.py
+- inventario_validaciones.py
