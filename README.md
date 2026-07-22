@@ -138,3 +138,25 @@ Además desarrollé un reporte de inventario que calcula resumen general, valor 
 - min_max_diccionarios.py
 - ordenar_productos.py
 - reporte_inventario.py
+
+## Clase 9 - Proyecto integrador: Inventario mejorado con reportes
+
+En esta clase desarrollé un sistema de inventario mejorado en consola usando listas de diccionarios, ciclos, condicionales y validaciones.
+
+El sistema permite registrar productos, mostrar inventario, buscar productos por código, actualizar precio, actualizar stock, eliminar productos con confirmación, generar reporte general, filtrar productos y ordenar productos.
+
+También integré herramientas más limpias de Python como any, next, sum, min, max, sorted, lambda y list comprehensions.
+
+### Evidencia
+- inventario_mejorado_reportes.py
+
+### Funcionalidades
+- Registro de productos con código único
+- Consulta de productos registrados
+- Búsqueda por código
+- Actualización de precio
+- Actualización de stock
+- Eliminación con confirmación
+- Reporte general del inventario
+- Filtros por disponibilidad, stock y precio
+- Ordenamiento por precio, stock y nombre
