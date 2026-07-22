@@ -160,3 +160,27 @@ También integré herramientas más limpias de Python como any, next, sum, min, 
 - Reporte general del inventario
 - Filtros por disponibilidad, stock y precio
 - Ordenamiento por precio, stock y nombre
+
+
+## Clase 10 - Funciones en Python I
+
+En esta clase aprendí a crear funciones con def, usar parámetros, devolver valores con return y utilizar funciones booleanas que devuelven True o False.
+
+También refactoricé el sistema de inventario usando funciones para separar responsabilidades como mostrar menú, registrar producto, buscar producto, actualizar precio, actualizar stock, eliminar producto, generar reportes, filtrar y ordenar productos.
+
+### Evidencia
+- funciones_basicas.py
+- funciones_parametros.py
+- funciones_return.py
+- funciones_calculadora.py
+- funciones_booleanas.py
+- funcion_buscar_producto.py
+- funcion_mostrar_productos.py
+- funcion_registrar_producto.py
+- funcion_actualizar_precio.py
+- funcion_actualizar_stock.py
+- funcion_eliminar_producto.py
+- funcion_reporte_general.py
+- funcion_filtrar_productos.py
+- funcion_ordenar_productos.py
+- inventario_con_funciones.py
