@@ -119,3 +119,22 @@ También desarrollé un inventario básico con menú en consola usando listas, d
 - valor_inventario.py
 - registrar_producto.py
 - inventario_basico.py
+
+
+## Clase 8 - Comprehensions, filtros y búsquedas limpias
+
+En esta clase practiqué list comprehensions para crear y filtrar listas de forma más compacta. También trabajé con listas de diccionarios usando next, any, all, sum, min, max y sorted.
+
+Además desarrollé un reporte de inventario que calcula resumen general, valor total, stock total, productos disponibles, productos sin stock, productos caros, producto más caro, producto más barato y productos ordenados por precio.
+
+### Evidencia
+- list_comprehension_basica.py
+- filtrar_numeros.py
+- filtrar_productos.py
+- buscar_producto_next.py
+- validar_producto_any.py
+- validar_productos_all.py
+- sum_diccionarios.py
+- min_max_diccionarios.py
+- ordenar_productos.py
+- reporte_inventario.py
