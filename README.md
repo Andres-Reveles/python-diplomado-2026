@@ -204,3 +204,23 @@ También mejoré el inventario creando funciones para validar texto, pedir preci
 - kwargs_basico.py
 - docstrings_basico.py
 - inventario_validaciones.py
+
+## Clase 12 - Refactor profesional con funciones
+
+En esta clase aprendí a refactorizar código, separando responsabilidades en funciones más pequeñas, claras y reutilizables.
+
+Mejoré el sistema de inventario creando funciones auxiliares para validar entradas, crear productos, buscar productos, pedir productos existentes, confirmar acciones, actualizar datos, eliminar productos, generar reportes, filtrar y ordenar productos.
+
+También aprendí la importancia de separar la lógica de cálculo de la lógica de impresión, haciendo que el código sea más limpio, mantenible y cercano a una estructura profesional.
+
+### Evidencia
+- refactor_responsabilidades.py
+- refactor_validaciones.py
+- refactor_entradas.py
+- refactor_crear_producto.py
+- refactor_registrar_producto.py
+- refactor_actualizaciones.py
+- refactor_eliminar_producto.py
+- refactor_reporte_general.py
+- refactor_filtros_ordenamientos.py
+- inventario_refactorizado.py
