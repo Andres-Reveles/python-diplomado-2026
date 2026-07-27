@@ -1,0 +1,200 @@
+print("=== Reporte general del grupo ===")
+
+
+def crear_alumno(matricula, nombre, carrera):
+    """
+    Crea y retorna un diccionario que representa a un alumno.
+    """
+    return {
+        "matricula": matricula,
+        "nombre": nombre,
+        "carrera": carrera,
+        "calificaciones": []
+    }
+
+
+def calcular_promedio(alumno):
+    """
+    Calcula el promedio de un alumno.
+
+    Retorna None si no tiene calificaciones.
+    """
+    calificaciones = alumno["calificaciones"]
+
+    if len(calificaciones) == 0:
+        return None
+
+    return sum(calificaciones) / len(calificaciones)
+
+
+def obtener_estado(alumno):
+    """
+    Retorna el estado académico del alumno.
+    """
+    promedio = calcular_promedio(alumno)
+
+    if promedio is None:
+        return "Sin calificaciones"
+
+    if promedio >= 6:
+        return "Aprobado"
+
+    return "Reprobado"
+
+
+def obtener_alumnos_con_calificaciones(alumnos):
+    """
+    Retorna alumnos que tienen al menos una calificación.
+    """
+    return [
+        alumno for alumno in alumnos
+        if len(alumno["calificaciones"]) > 0
+    ]
+
+
+def obtener_alumnos_aprobados(alumnos):
+    """
+    Retorna alumnos aprobados.
+    """
+    return [
+        alumno for alumno in alumnos
+        if obtener_estado(alumno) == "Aprobado"
+    ]
+
+
+def obtener_alumnos_reprobados(alumnos):
+    """
+    Retorna alumnos reprobados.
+    """
+    return [
+        alumno for alumno in alumnos
+        if obtener_estado(alumno) == "Reprobado"
+    ]
+
+
+def calcular_promedio_grupo(alumnos):
+    """
+    Calcula el promedio general del grupo.
+
+    Solo considera alumnos que sí tienen calificaciones.
+    """
+    alumnos_con_calificaciones = obtener_alumnos_con_calificaciones(alumnos)
+
+    if len(alumnos_con_calificaciones) == 0:
+        return None
+
+    suma_promedios = sum(
+        calcular_promedio(alumno)
+        for alumno in alumnos_con_calificaciones
+    )
+
+    return suma_promedios / len(alumnos_con_calificaciones)
+
+
+def obtener_mejor_alumno(alumnos):
+    """
+    Retorna el alumno con mejor promedio.
+
+    Solo considera alumnos con calificaciones.
+    """
+    alumnos_con_calificaciones = obtener_alumnos_con_calificaciones(alumnos)
+
+    if len(alumnos_con_calificaciones) == 0:
+        return None
+
+    return max(
+        alumnos_con_calificaciones,
+        key=lambda alumno: calcular_promedio(alumno)
+    )
+
+
+def obtener_alumno_menor_promedio(alumnos):
+    """
+    Retorna el alumno con menor promedio.
+
+    Solo considera alumnos con calificaciones.
+    """
+    alumnos_con_calificaciones = obtener_alumnos_con_calificaciones(alumnos)
+
+    if len(alumnos_con_calificaciones) == 0:
+        return None
+
+    return min(
+        alumnos_con_calificaciones,
+        key=lambda alumno: calcular_promedio(alumno)
+    )
+
+
+def mostrar_alumno_resumen(alumno):
+    """
+    Muestra un alumno en formato resumido.
+    """
+    promedio = calcular_promedio(alumno)
+    estado = obtener_estado(alumno)
+
+    if promedio is None:
+        promedio_texto = "Sin calificaciones"
+    else:
+        promedio_texto = f"{promedio:.2f}"
+
+    print(f"{alumno['matricula']} - {alumno['nombre']} - Promedio: {promedio_texto} - Estado: {estado}")
+
+
+def mostrar_reporte_grupo(alumnos):
+    """
+    Muestra el reporte general del grupo.
+    """
+    if len(alumnos) == 0:
+        print("No hay alumnos registrados")
+        return
+
+    cantidad_alumnos = len(alumnos)
+    alumnos_con_calificaciones = obtener_alumnos_con_calificaciones(alumnos)
+    alumnos_aprobados = obtener_alumnos_aprobados(alumnos)
+    alumnos_reprobados = obtener_alumnos_reprobados(alumnos)
+
+    promedio_grupo = calcular_promedio_grupo(alumnos)
+    mejor_alumno = obtener_mejor_alumno(alumnos)
+    alumno_menor_promedio = obtener_alumno_menor_promedio(alumnos)
+
+    print("=== Reporte general del grupo ===")
+    print(f"Cantidad de alumnos registrados: {cantidad_alumnos}")
+    print(f"Alumnos con calificaciones: {len(alumnos_con_calificaciones)}")
+    print(f"Alumnos aprobados: {len(alumnos_aprobados)}")
+    print(f"Alumnos reprobados: {len(alumnos_reprobados)}")
+
+    if promedio_grupo is None:
+        print("Promedio general del grupo: Sin calificaciones")
+    else:
+        print(f"Promedio general del grupo: {promedio_grupo:.2f}")
+
+    print()
+
+    if mejor_alumno is None:
+        print("Mejor alumno: Sin calificaciones")
+    else:
+        print("Mejor alumno:")
+        mostrar_alumno_resumen(mejor_alumno)
+
+    print()
+
+    if alumno_menor_promedio is None:
+        print("Alumno con menor promedio: Sin calificaciones")
+    else:
+        print("Alumno con menor promedio:")
+        mostrar_alumno_resumen(alumno_menor_promedio)
+
+
+alumno_1 = crear_alumno("A001", "Angel", "ISC")
+alumno_2 = crear_alumno("A002", "Luis", "Contaduría")
+alumno_3 = crear_alumno("A003", "María", "Administración")
+alumno_4 = crear_alumno("A004", "Dylan", "ISC")
+
+alumno_1["calificaciones"] = [9, 8, 10]
+alumno_2["calificaciones"] = [5, 6, 5]
+alumno_3["calificaciones"] = []
+alumno_4["calificaciones"] = [7, 8, 8]
+
+alumnos = [alumno_1, alumno_2, alumno_3, alumno_4]
+
+mostrar_reporte_grupo(alumnos)

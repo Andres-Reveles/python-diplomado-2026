@@ -224,3 +224,20 @@ También aprendí la importancia de separar la lógica de cálculo de la lógica
 - refactor_reporte_general.py
 - refactor_filtros_ordenamientos.py
 - inventario_refactorizado.py
+
+## Clase 13 - Proyecto integrador con funciones
+
+En esta clase desarrollé un sistema de alumnos y calificaciones usando funciones, listas, diccionarios, validaciones y menú interactivo.
+
+El sistema permite registrar alumnos, mostrar alumnos, buscar alumnos por matrícula, registrar calificaciones, calcular promedio, determinar estado académico y generar un reporte general del grupo.
+
+Este proyecto integró los temas principales del módulo: funciones, return, None, validaciones, try/except, listas, diccionarios, ciclos y condicionales.
+
+### Evidencia
+- proyecto_calificaciones_base.py
+- proyecto_buscar_alumno.py
+- proyecto_registrar_alumno.py
+- proyecto_registrar_calificaciones.py
+- proyecto_promedio_estado.py
+- proyecto_reporte_grupo.py
+- proyecto_calificaciones_completo.py
