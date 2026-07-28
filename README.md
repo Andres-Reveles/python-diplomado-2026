@@ -241,3 +241,27 @@ Este proyecto integró los temas principales del módulo: funciones, return, Non
 - proyecto_promedio_estado.py
 - proyecto_reporte_grupo.py
 - proyecto_calificaciones_completo.py
+
+
+## Clase 14 - Módulos e imports
+
+En esta clase aprendí a dividir un programa en varios archivos usando módulos e imports.
+
+Practiqué las diferentes formas de importar funciones en Python: import modulo, from modulo import funcion e import modulo as alias.
+
+También refactoricé el sistema de alumnos y calificaciones para separarlo en módulos como entradas.py, validaciones.py, alumnos.py y reportes.py, dejando un archivo principal main_calificaciones_modular.py encargado de ejecutar el programa.
+
+### Evidencia
+- operaciones.py
+- main_import_basico.py
+- main_from_import.py
+- main_import_alias.py
+- validaciones.py
+- main_validaciones.py
+- entradas.py
+- main_entradas.py
+- alumnos.py
+- main_alumnos.py
+- reportes.py
+- main_reportes.py
+- main_calificaciones_modular.py
