@@ -265,3 +265,29 @@ También refactoricé el sistema de alumnos y calificaciones para separarlo en m
 - reportes.py
 - main_reportes.py
 - main_calificaciones_modular.py
+
+## Clase 15 - Paquetes y estructura profesional de proyecto
+
+En esta clase aprendí a organizar un proyecto Python usando paquetes y carpetas con responsabilidades específicas.
+
+Creé una estructura profesional para el sistema de alumnos y calificaciones, separando el código en modelos, servicios, utilidades y reportes. También aprendí para qué sirve el archivo __init__.py y cómo importar funciones desde diferentes paquetes.
+
+### Estructura creada
+
+sistema_calificaciones/
+- main.py
+- modelos/alumno.py
+- servicios/alumno_servicio.py
+- utilidades/entradas.py
+- reportes/reporte_grupo.py
+
+### Evidencia
+- sistema_calificaciones/main.py
+- sistema_calificaciones/modelos/__init__.py
+- sistema_calificaciones/modelos/alumno.py
+- sistema_calificaciones/servicios/__init__.py
+- sistema_calificaciones/servicios/alumno_servicio.py
+- sistema_calificaciones/utilidades/__init__.py
+- sistema_calificaciones/utilidades/entradas.py
+- sistema_calificaciones/reportes/__init__.py
+- sistema_calificaciones/reportes/reporte_grupo.py
