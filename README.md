@@ -291,3 +291,24 @@ sistema_calificaciones/
 - sistema_calificaciones/utilidades/entradas.py
 - sistema_calificaciones/reportes/__init__.py
 - sistema_calificaciones/reportes/reporte_grupo.py
+
+## Clase 16 - Inventario modular: registrar, buscar, actualizar, eliminar
+Fecha: Jueves 30/07/2026
+
+En esta clase desarrollé un inventario modular dividido en varios archivos.
+
+Practiqué imports, funciones, listas de diccionarios y separación de responsabilidades. El inventario permite registrar productos, buscar productos por código, actualizar precio, actualizar stock y eliminar productos con confirmación.
+
+### Estructura creada
+
+inventario_modular/
+- main.py
+- producto.py
+- entradas.py
+- inventario_servicio.py
+
+### Evidencia
+- inventario_modular/main.py
+- inventario_modular/producto.py
+- inventario_modular/entradas.py
+- inventario_modular/inventario_servicio.py
