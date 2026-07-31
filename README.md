@@ -312,3 +312,26 @@ inventario_modular/
 - inventario_modular/producto.py
 - inventario_modular/entradas.py
 - inventario_modular/inventario_servicio.py
+
+## Clase 17 - Proyecto: inventario de productos en consola
+Fecha: Sábado 01/08/2026.
+
+En esta clase desarrollé un proyecto completo de inventario de productos en consola usando funciones, listas, diccionarios, validaciones, imports y módulos.
+
+El sistema permite registrar productos, mostrar productos, buscar productos por código, actualizar precio, actualizar stock, eliminar productos con confirmación, generar reportes generales, filtrar productos y ordenarlos por diferentes criterios.
+
+### Estructura del proyecto
+
+proyecto_inventario_consola/
+- main.py
+- producto.py
+- entradas.py
+- inventario_servicio.py
+- reportes.py
+
+### Evidencia
+- proyecto_inventario_consola/main.py
+- proyecto_inventario_consola/producto.py
+- proyecto_inventario_consola/entradas.py
+- proyecto_inventario_consola/inventario_servicio.py
+- proyecto_inventario_consola/reportes.py
