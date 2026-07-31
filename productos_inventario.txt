@@ -1,0 +1,4 @@
+P001|Mouse|250.0|10
+P002|Teclado|500.0|5
+P003|Monitor|3200.0|2
+P010|Bocina|750.0|4

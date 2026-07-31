@@ -335,3 +335,28 @@ proyecto_inventario_consola/
 - proyecto_inventario_consola/entradas.py
 - proyecto_inventario_consola/inventario_servicio.py
 - proyecto_inventario_consola/reportes.py
+
+## Clase 18 - Archivos TXT: escritura, lectura y persistencia básica
+Fecha: Martes 04/08/2026
+
+En esta clase aprendí a trabajar con archivos TXT desde Python usando open() y with open().
+
+Practiqué escritura, lectura, agregar contenido, leer línea por línea, guardar listas, cargar listas, guardar listas de diccionarios y cargar productos desde un archivo TXT.
+
+También integré persistencia básica al proyecto de inventario de productos en consola, permitiendo que los productos registrados se guarden en un archivo y permanezcan disponibles después de cerrar y volver a abrir el programa.
+
+### Evidencia
+- archivo_escritura_txt.py
+- archivo_lectura_txt.py
+- archivo_with_open.py
+- archivo_agregar_txt.py
+- archivo_leer_lineas.py
+- guardar_lista_txt.py
+- cargar_lista_txt.py
+- guardar_productos_txt.py
+- cargar_productos_txt.py
+- funciones_archivos_productos.py
+- cargar_archivo_inexistente.py
+- proyecto_inventario_consola/archivos_productos.py
+- proyecto_inventario_consola/productos_inventario.txt
+- proyecto_inventario_consola/main.py

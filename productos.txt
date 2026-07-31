@@ -1,0 +1,4 @@
+P001|Mouse|250.99|10
+P002|Teclado|500.99|5
+P003|Monitor|1500.99|3
+P004|Impresora|2000.99|2

@@ -1,0 +1,7 @@
+Hola, este archivo fue creado desde Python
+Estoy aprendiendo persistencia de datos.
+Clase 18 - Archivos TXT.
+Esta linea fue agregada después.
+Estoy usando el modo append.
+Esta linea fue agregada después.
+Estoy usando el modo append.

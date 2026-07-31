@@ -1,4 +1,3 @@
-from producto import crear_producto
 from inventario_servicio import (
     mostrar_productos,
     registrar_producto,
@@ -18,9 +17,13 @@ from reportes import (
     ordenar_por_nombre,
     mostrar_productos_resumen
 )
+from archivos_productos import cargar_productos_txt, guardar_productos_txt
 
 
-print("=== Proyecto inventario de productos en consola ===")
+NOMBRE_ARCHIVO = "productos_inventario.txt"
+
+
+print("=== Proyecto inventario de productos con persistencia TXT ===")
 
 
 def mostrar_menu():
@@ -34,7 +37,8 @@ def mostrar_menu():
     print("7. Reporte general")
     print("8. Filtrar productos")
     print("9. Ordenar productos")
-    print("10. Salir")
+    print("10. Guardar cambios")
+    print("11. Salir")
 
 
 def filtrar_productos_menu(productos):
@@ -114,13 +118,7 @@ def ordenar_productos_menu(productos):
     mostrar_productos_resumen(resultado)
 
 
-productos = [
-    crear_producto("P001", "Mouse", 250.0, 10),
-    crear_producto("P002", "Teclado", 500.0, 5),
-    crear_producto("P003", "Monitor", 3200.0, 2),
-    crear_producto("P004", "Webcam", 850.0, 0),
-    crear_producto("P005", "USB", 120.0, 20)
-]
+productos = cargar_productos_txt(NOMBRE_ARCHIVO)
 
 
 while True:
@@ -156,6 +154,12 @@ while True:
         ordenar_productos_menu(productos)
 
     elif opcion == "10":
+        guardar_productos_txt(productos, NOMBRE_ARCHIVO)
+        print("Cambios guardados correctamente")
+
+    elif opcion == "11":
+        guardar_productos_txt(productos, NOMBRE_ARCHIVO)
+        print("Cambios guardados correctamente")
         print("Saliendo del sistema")
         break
 
