@@ -1,0 +1,5 @@
+=== Bitácora de práctica con archivos ===
+Repasé escritura de archivos TXT.
+Repasé lectura de archivos TXT.
+Practiqué funciones para manejar archivos.
+Preparé el camino para CSV y JSON.

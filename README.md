@@ -360,3 +360,18 @@ También integré persistencia básica al proyecto de inventario de productos en
 - proyecto_inventario_consola/archivos_productos.py
 - proyecto_inventario_consola/productos_inventario.txt
 - proyecto_inventario_consola/main.py
+
+## Clase 19 - Práctica corta con archivos
+Fecha del plan: Miércoles 05/08/2026
+
+En esta clase reforcé el manejo de archivos TXT en Python mediante una práctica corta.
+
+Practiqué escritura, lectura, append, lectura línea por línea, uso de with open(), manejo de FileNotFoundError y creación de funciones reutilizables para trabajar con archivos.
+
+También desarrollé una bitácora interactiva en consola que permite agregar eventos, leer la bitácora y contar eventos registrados.
+
+### Evidencia
+- practica_archivos_clase19.py
+- bitacora_clase19.txt
+- bitacora_interactiva.py
+- bitacora_interactiva.txt
