@@ -375,3 +375,29 @@ También desarrollé una bitácora interactiva en consola que permite agregar ev
 - bitacora_clase19.txt
 - bitacora_interactiva.py
 - bitacora_interactiva.txt
+
+## Clase 20 - Archivos CSV y JSON
+Fecha del plan: Jueves 06/08/2026
+Estatus: Clase adelantada
+
+En esta clase aprendí a trabajar con archivos CSV y JSON desde Python.
+
+Practiqué el uso de import csv, csv.DictWriter, csv.DictReader, import json, json.dump y json.load.
+
+También comparé TXT, CSV y JSON como formatos de persistencia. TXT requiere manejo manual de separadores, CSV es útil para datos tabulares y JSON se adapta mejor a listas y diccionarios.
+
+Finalmente integré persistencia con JSON al proyecto de inventario de productos en consola, permitiendo guardar y cargar productos desde un archivo productos_inventario.json.
+
+### Evidencia
+- guardar_productos_csv.py
+- cargar_productos_csv.py
+- productos.csv
+- guardar_productos_json.py
+- cargar_productos_json.py
+- productos.json
+- funciones_csv_json.py
+- productos_funciones.csv
+- productos_funciones.json
+- proyecto_inventario_consola/archivos_productos_json.py
+- proyecto_inventario_consola/main_json.py
+- proyecto_inventario_consola/productos_inventario.json
