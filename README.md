@@ -454,3 +454,16 @@ Además, creé funciones reutilizables para pedir números seguros, validé regl
 - validaciones_con_excepciones.py
 - calculadora_segura_excepciones.py
 - venta_segura_excepciones.py
+
+## Clase 23 - Práctica corta con errores comunes
+Fecha del plan: Miércoles 12/08/2026
+
+En esta clase realicé una práctica corta para reforzar el manejo de errores comunes en Python.
+
+Practiqué el uso de try y except para controlar ValueError, ZeroDivisionError, IndexError, KeyError y FileNotFoundError. También corregí ejemplos donde podían fallar operaciones con listas vacías, posiciones inexistentes y claves no encontradas en diccionarios.
+
+Esta práctica me ayudó a comprender cómo evitar que los programas se rompan cuando el usuario ingresa datos incorrectos o cuando se intenta acceder a información que no existe.
+
+### Evidencia
+- errores_comunes_practica.py
+- correccion_errores_comunes.py
