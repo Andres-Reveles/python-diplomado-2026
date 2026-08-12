@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "P001",
+        "precio": "Mouse",
+        "cantidad": 250,
+        "stock": 10
+    },
+    {
+        "nombre": "P002",
+        "precio": "Teclado",
+        "cantidad": 500,
+        "stock": 5
+    },
+    {
+        "nombre": "P003",
+        "precio": "Monitor",
+        "cantidad": 1500,
+        "stock": 3
+    }
+]

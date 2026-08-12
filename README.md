@@ -401,3 +401,39 @@ Finalmente integré persistencia con JSON al proyecto de inventario de productos
 - proyecto_inventario_consola/archivos_productos_json.py
 - proyecto_inventario_consola/main_json.py
 - proyecto_inventario_consola/productos_inventario.json
+
+## Clase 21 - Sistema de ventas con persistencia básica
+Fecha del plan: Sábado 08/08/2026
+Estatus: Clase adelantada
+
+En esta clase desarrollé un sistema de ventas en consola dividido en módulos.
+
+El sistema permite registrar productos, mostrar productos, buscar productos, registrar ventas, validar stock suficiente, descontar stock al vender, generar folios automáticos, mostrar ventas completas, mostrar ventas resumidas y generar un reporte general de ventas.
+
+También integré persistencia básica con archivos JSON, guardando productos y ventas en archivos separados para que la información se conserve después de cerrar y volver a abrir el programa.
+
+### Estructura del proyecto
+
+sistema_ventas_consola/
+- main.py
+- entradas.py
+- producto.py
+- producto_servicio.py
+- venta.py
+- venta_servicio.py
+- persistencia.py
+- reportes.py
+- productos_sistema_ventas.json
+- ventas_sistema_ventas.json
+
+### Evidencia
+- sistema_ventas_consola/main.py
+- sistema_ventas_consola/entradas.py
+- sistema_ventas_consola/producto.py
+- sistema_ventas_consola/producto_servicio.py
+- sistema_ventas_consola/venta.py
+- sistema_ventas_consola/venta_servicio.py
+- sistema_ventas_consola/persistencia.py
+- sistema_ventas_consola/reportes.py
+- sistema_ventas_consola/productos_sistema_ventas.json
+- sistema_ventas_consola/ventas_sistema_ventas.json

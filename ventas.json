@@ -1,0 +1,10 @@
+[
+    {
+        "folio": "V001",
+        "codigo_producto": "P001",
+        "nombre_producto": "Mouse",
+        "precio_unitario": 250.0,
+        "cantidad": 2,
+        "total": 500.0
+    }
+]

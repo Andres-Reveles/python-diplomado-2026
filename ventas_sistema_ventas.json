@@ -1,0 +1,34 @@
+[
+    {
+        "folio": "V001",
+        "codigo_producto": "P001",
+        "nombre_producto": "Mouse",
+        "precio_unitario": 250.0,
+        "cantidad": 1,
+        "total": 250.0
+    },
+    {
+        "folio": "V002",
+        "codigo_producto": "P001",
+        "nombre_producto": "Mouse",
+        "precio_unitario": 250.0,
+        "cantidad": 1,
+        "total": 250.0
+    },
+    {
+        "folio": "V003",
+        "codigo_producto": "P002",
+        "nombre_producto": "Teclado",
+        "precio_unitario": 500.0,
+        "cantidad": 1,
+        "total": 500.0
+    },
+    {
+        "folio": "V004",
+        "codigo_producto": "P004",
+        "nombre_producto": "WebCam",
+        "precio_unitario": 850.0,
+        "cantidad": 2,
+        "total": 1700.0
+    }
+]

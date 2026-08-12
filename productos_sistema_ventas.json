@@ -9,12 +9,18 @@
         "codigo": "P002",
         "nombre": "Teclado",
         "precio": 500.0,
-        "stock": 5
+        "stock": 4
     },
     {
         "codigo": "P003",
         "nombre": "Monitor",
         "precio": 3200.0,
+        "stock": 2
+    },
+    {
+        "codigo": "P004",
+        "nombre": "WebCam",
+        "precio": 850.0,
         "stock": 2
     }
 ]
