@@ -437,3 +437,20 @@ sistema_ventas_consola/
 - sistema_ventas_consola/reportes.py
 - sistema_ventas_consola/productos_sistema_ventas.json
 - sistema_ventas_consola/ventas_sistema_ventas.json
+
+## Clase 22 - Excepciones 1: try, except, ValueError
+Fecha del plan: Martes 11/08/2026
+
+En esta clase aprendí a manejar errores básicos en Python usando try y except.
+
+Practiqué el uso de ValueError para controlar errores de conversión cuando el usuario escribe datos inválidos, como texto en lugar de números. También usé ZeroDivisionError para evitar errores al dividir entre cero.
+
+Además, creé funciones reutilizables para pedir números seguros, validé reglas como números positivos y apliqué excepciones en una calculadora segura y en un ejemplo de venta con validación de stock.
+
+### Evidencia
+- excepcion_value_error.py
+- division_segura.py
+- pedir_numeros_seguros.py
+- validaciones_con_excepciones.py
+- calculadora_segura_excepciones.py
+- venta_segura_excepciones.py
