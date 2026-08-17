@@ -467,3 +467,22 @@ Esta práctica me ayudó a comprender cómo evitar que los programas se rompan c
 ### Evidencia
 - errores_comunes_practica.py
 - correccion_errores_comunes.py
+
+## Clase 24 - Excepciones 2: finally, múltiples errores y funciones seguras
+Fecha del plan: Jueves 13/08/2026
+
+En esta clase reforcé el manejo de excepciones en Python usando finally, múltiples bloques except y funciones seguras.
+
+Practiqué cómo controlar diferentes errores dentro de un mismo programa, como ValueError, IndexError y ZeroDivisionError. También aprendí que finally se ejecuta siempre, haya ocurrido un error o no.
+
+Además, trabajé con lectura segura de archivos JSON controlando FileNotFoundError y json.JSONDecodeError. Finalmente, mejoré el archivo persistencia.py del sistema de ventas para que pueda guardar y cargar datos de forma más segura, controlando errores de lectura, escritura y archivos JSON dañados.
+
+### Evidencia
+- finally_basico.py
+- finally_archivo.py
+- archivo_prueba_finally.txt
+- multiples_errores.py
+- funciones_seguras.py
+- lectura_segura_json.py
+- productos_prueba_segura.json
+- sistema_ventas_consola/persistencia.py
