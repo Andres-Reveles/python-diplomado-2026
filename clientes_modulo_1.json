@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Andres Reveles",
+        "telefono": "5512345678",
+        "correo": "andres@email.com",
+        "activo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Lopez",
+        "telefono": "5511223344",
+        "correo": "carlos@email.com",
+        "activo": true
+    },
+    {
+        "id": 4,
+        "nombre": "Maria Gonzalez",
+        "telefono": "5555555555",
+        "correo": "marianuevo@email.com",
+        "activo": false
+    }
+]

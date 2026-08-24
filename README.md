@@ -486,3 +486,21 @@ Además, trabajé con lectura segura de archivos JSON controlando FileNotFoundEr
 - lectura_segura_json.py
 - productos_prueba_segura.json
 - sistema_ventas_consola/persistencia.py
+
+## Clase 25 - Cierre del Módulo 1: Gestor de clientes con archivos y excepciones
+Fecha del plan: Sábado 15/08/2026
+
+En esta clase desarrollé el proyecto de cierre del Módulo 1: un gestor de clientes en consola dividido por módulos.
+
+El sistema permite registrar clientes, mostrar clientes, buscar clientes por ID, actualizar teléfono, actualizar correo, dar de baja lógica a clientes, generar reportes y guardar la información en un archivo JSON.
+
+También integré validaciones, manejo de excepciones, persistencia segura y separación de responsabilidades mediante archivos como main.py, entradas.py, cliente.py, cliente_servicio.py, persistencia.py y reportes.py.
+
+### Evidencia
+- gestor_clientes_modulo_1/main.py
+- gestor_clientes_modulo_1/entradas.py
+- gestor_clientes_modulo_1/cliente.py
+- gestor_clientes_modulo_1/cliente_servicio.py
+- gestor_clientes_modulo_1/persistencia.py
+- gestor_clientes_modulo_1/reportes.py
+- gestor_clientes_modulo_1/clientes_modulo_1.json
