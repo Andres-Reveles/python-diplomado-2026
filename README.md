@@ -504,3 +504,17 @@ También integré validaciones, manejo de excepciones, persistencia segura y sep
 - gestor_clientes_modulo_1/persistencia.py
 - gestor_clientes_modulo_1/reportes.py
 - gestor_clientes_modulo_1/clientes_modulo_1.json
+
+## Evaluación Final - Módulo 1
+Fecha: 24/08/2026
+
+Realicé la evaluación final del Módulo 1, donde repasé fundamentos de Python, colecciones, funciones, módulos, archivos y excepciones.
+
+La evaluación incluyó teoría, lectura de código, corrección de errores y un mini proyecto práctico. En el proyecto desarrollé un sistema de productos con registro, listado, búsqueda, reporte, guardado y carga desde archivo JSON.
+
+### Resultado
+Calificación global: 9.2 / 10
+
+### Evidencia
+- evaluacion_modulo_1.py
+- productos_evaluacion.json

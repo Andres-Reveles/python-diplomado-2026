@@ -1,0 +1,14 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Mouse",
+        "precio": 250.0,
+        "stock": 10
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Teclado",
+        "precio": 500.0,
+        "stock": 5
+    }
+]
