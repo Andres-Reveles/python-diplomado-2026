@@ -518,3 +518,22 @@ Calificación global: 9.2 / 10
 ### Evidencia
 - evaluacion_modulo_1.py
 - productos_evaluacion.json
+
+## Módulo 2 - POO en Python I
+### Clase 1 - Clases, objetos, atributos, métodos y constructor
+Fecha de trabajo: Martes 18/08/2026
+
+En esta clase inicié el Módulo 2 de Programación Orientada a Objetos en Python.
+
+Aprendí a crear clases, instanciar objetos, asignar atributos, definir métodos y utilizar self para acceder a los datos del objeto actual. También implementé el constructor __init__ para inicializar objetos desde su creación.
+
+Como ejercicio base desarrollé una clase CuentaBancaria con atributos como número de cuenta, titular y saldo. Además, agregué métodos para mostrar información, depositar y retirar dinero con validaciones.
+
+Finalmente, trabajé con listas de objetos, búsqueda de cuentas por número y operaciones sobre una cuenta encontrada.
+
+### Evidencia
+- modulo_02_poo/clase_01_clases_objetos.py
+- modulo_02_poo/clase_01_lista_objetos.py
+- modulo_02_poo/clase_01_buscar_objeto.py
+- modulo_02_poo/clase_01_operaciones_cuenta.py
+- modulo_02_poo/clase_01_sistema_bancario_base.py
