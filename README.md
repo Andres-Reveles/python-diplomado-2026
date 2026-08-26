@@ -537,3 +537,19 @@ Finalmente, trabajé con listas de objetos, búsqueda de cuentas por número y o
 - modulo_02_poo/clase_01_buscar_objeto.py
 - modulo_02_poo/clase_01_operaciones_cuenta.py
 - modulo_02_poo/clase_01_sistema_bancario_base.py
+
+## Módulo 2 - POO en Python I
+### Clase 2 - Práctica corta, katas y corrección de errores
+Fecha de trabajo: Miércoles 19/08/2026
+
+En esta clase realicé una práctica corta de Programación Orientada a Objetos en Python.
+
+Reforcé el uso de clases, objetos, atributos, métodos, self y el constructor __init__. También practiqué errores comunes de POO, como olvidar self, escribir mal un atributo o llamar un método inexistente.
+
+Además, desarrollé una clase Cliente con métodos para mostrar información, actualizar teléfono, actualizar correo y dar de baja lógica. Finalmente, trabajé con una lista de objetos Cliente y una función de búsqueda por ID con manejo de errores usando try / except.
+
+### Evidencia
+- modulo_02_poo/clase_02_practica_poo.py
+- modulo_02_poo/clase_02_errores_poo.py
+- modulo_02_poo/clase_02_cliente_poo.py
+- modulo_02_poo/clase_02_lista_clientes_poo.py
