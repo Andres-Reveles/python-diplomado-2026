@@ -591,3 +591,23 @@ También aprendí a convertir objetos a diccionarios para poder guardarlos en JS
 - modulo_02_poo/sistema_bancario_poo/reportes.py
 - modulo_02_poo/sistema_bancario_poo/persistencia.py
 - modulo_02_poo/sistema_bancario_poo/cuentas_bancarias.json
+
+## Módulo 2 - POO en Python II
+### Clase 5 - Preparación: encapsulamiento, property y setter
+Fecha de trabajo: Lunes 24/08/2026
+
+En esta clase inicié la preparación para POO en Python II.
+
+Primero analicé el problema de usar atributos públicos, ya que desde fuera de la clase se podía modificar directamente el saldo de una cuenta y dejarlo en un valor inválido.
+
+Después practiqué encapsulamiento básico usando atributos internos con guion bajo, como _saldo, y métodos para consultar valores de forma controlada.
+
+También aprendí a usar @property para crear propiedades de solo lectura, permitiendo consultar cuenta.saldo sin permitir modificarlo directamente.
+
+Finalmente, implementé un setter para el titular de la cuenta, permitiendo modificar cuenta.titular pero validando que el nuevo valor no esté vacío.
+
+### Evidencia
+- modulo_02_poo/clase_05_preparacion_poo_ii.py
+- modulo_02_poo/clase_05_encapsulamiento_basico.py
+- modulo_02_poo/clase_05_property.py
+- modulo_02_poo/clase_05_property_setter.py

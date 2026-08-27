@@ -1,0 +1,80 @@
+print("=== Módulo 2 - POO en Python II ===")
+print("=== @property con setter ===")
+
+
+class CuentaBancaria:
+
+    def __init__(self, numero_cuenta, titular, saldo):
+        self.numero_cuenta = numero_cuenta
+        self._titular = titular
+
+        if saldo < 0:
+            print("Error: el saldo inicial no puede ser negativo")
+            self._saldo = 0
+        else:
+            self._saldo = saldo
+
+        self.activa = True
+
+    @property
+    def saldo(self):
+        return self._saldo
+
+    @property
+    def titular(self):
+        return self._titular
+
+    @titular.setter
+    def titular(self, nuevo_titular):
+        if nuevo_titular.strip() == "":
+            print("Error: el titular no puede estar vacío")
+            return
+
+        self._titular = nuevo_titular
+        print("Titular actualizado correctamente")
+
+    def mostrar_informacion(self):
+        print("=== Cuenta bancaria ===")
+        print(f"Número de cuenta: {self.numero_cuenta}")
+        print(f"Titular: {self.titular}")
+        print(f"Saldo: ${self.saldo}")
+        print(f"Activa: {self.activa}")
+
+    def depositar(self, cantidad):
+        if cantidad <= 0:
+            print("Error: la cantidad debe ser mayor a cero")
+            return
+
+        self._saldo += cantidad
+        print(f"Depósito realizado por ${cantidad}")
+
+    def retirar(self, cantidad):
+        if cantidad <= 0:
+            print("Error: la cantidad debe ser mayor a cero")
+            return
+
+        if cantidad > self._saldo:
+            print("Error: saldo insuficiente")
+            return
+
+        self._saldo -= cantidad
+        print(f"Retiro realizado por ${cantidad}")
+
+
+cuenta = CuentaBancaria("001", "Andrés Reveles", 1000.0)
+
+cuenta.mostrar_informacion()
+
+print()
+print("Actualizando titular...")
+cuenta.titular = "Ángel Andrés Reveles"
+
+print()
+cuenta.mostrar_informacion()
+
+print()
+print("Intentando dejar titular vacío...")
+cuenta.titular = ""
+
+print()
+cuenta.mostrar_informacion()
