@@ -630,3 +630,20 @@ Finalmente, trabajé con una lista de órdenes bancarias para simular varias tra
 - modulo_02_poo/clase_06_crear_cuenta_cliente.py
 - modulo_02_poo/clase_06_orden_bancaria.py
 - modulo_02_poo/clase_06_lista_ordenes.py
+
+## Módulo 2 - POO en Python II
+### Clase 7 - Práctica corta: composición, errores y órdenes inválidas
+Fecha de trabajo: Miércoles 26/08/2026
+
+En esta clase realicé una práctica corta de POO en Python II.
+
+Reforcé el uso de composición entre objetos, usando clases como Cliente, CuentaBancaria y OrdenBancaria. También practiqué el acceso a objetos relacionados mediante expresiones como cuenta.cliente.nombre y orden.cuenta_origen.cliente.nombre.
+
+Además, revisé errores comunes al trabajar con composición, como pasar un texto en lugar de un objeto, escribir mal el nombre de un atributo relacionado o intentar modificar directamente una propiedad de solo lectura.
+
+Finalmente, implementé órdenes bancarias inválidas para validar reglas de negocio, como rechazar órdenes con la misma cuenta origen y destino, monto negativo o saldo insuficiente.
+
+### Evidencia
+- modulo_02_poo/clase_07_practica_poo_ii.py
+- modulo_02_poo/clase_07_errores_composicion.py
+- modulo_02_poo/clase_07_ordenes_invalidas.py
