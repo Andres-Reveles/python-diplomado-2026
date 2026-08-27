@@ -553,3 +553,22 @@ Además, desarrollé una clase Cliente con métodos para mostrar información, a
 - modulo_02_poo/clase_02_errores_poo.py
 - modulo_02_poo/clase_02_cliente_poo.py
 - modulo_02_poo/clase_02_lista_clientes_poo.py
+
+## Módulo 2 - POO en Python I
+### Clase 3 - Proyecto parcial: Sistema bancario POO
+Fecha de trabajo: Jueves 20/08/2026
+
+En esta clase avancé el proyecto parcial del Módulo 2 creando un sistema bancario con Programación Orientada a Objetos.
+
+Organicé el proyecto en varios archivos: main.py, cuenta_bancaria.py, entradas.py, cuenta_servicio.py y reportes.py.
+
+El sistema permite registrar cuentas bancarias, mostrar cuentas, buscar cuentas por número, depositar dinero, retirar dinero, dar de baja lógica a una cuenta y generar un reporte general del sistema.
+
+También reforcé el uso de clases, objetos, métodos, self, constructores, listas de objetos, validaciones y separación de responsabilidades.
+
+### Evidencia
+- modulo_02_poo/sistema_bancario_poo/main.py
+- modulo_02_poo/sistema_bancario_poo/cuenta_bancaria.py
+- modulo_02_poo/sistema_bancario_poo/entradas.py
+- modulo_02_poo/sistema_bancario_poo/cuenta_servicio.py
+- modulo_02_poo/sistema_bancario_poo/reportes.py
