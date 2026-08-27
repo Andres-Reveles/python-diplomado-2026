@@ -611,3 +611,22 @@ Finalmente, implementé un setter para el titular de la cuenta, permitiendo modi
 - modulo_02_poo/clase_05_encapsulamiento_basico.py
 - modulo_02_poo/clase_05_property.py
 - modulo_02_poo/clase_05_property_setter.py
+
+## Módulo 2 - POO en Python II
+### Clase 6 - Composición y relación entre objetos
+Fecha de trabajo: Martes 25/08/2026
+
+En esta clase estudié composición en Programación Orientada a Objetos.
+
+Aprendí a relacionar objetos entre sí, creando clases como Cliente, CuentaBancaria y OrdenBancaria. Primero trabajé con una cuenta bancaria que recibe un objeto Cliente como titular. Después practiqué listas de clientes y cuentas, búsqueda de clientes por ID y creación de cuentas asociadas a clientes existentes.
+
+También implementé órdenes bancarias, donde una orden tiene una cuenta origen, una cuenta destino, un monto, un concepto y un estado. Practiqué la ejecución de órdenes, validando saldo suficiente, cuentas distintas, monto positivo y cambio de estado de PENDIENTE a EJECUTADA o RECHAZADA.
+
+Finalmente, trabajé con una lista de órdenes bancarias para simular varias transferencias entre cuentas.
+
+### Evidencia
+- modulo_02_poo/clase_06_composicion.py
+- modulo_02_poo/clase_06_lista_composicion.py
+- modulo_02_poo/clase_06_crear_cuenta_cliente.py
+- modulo_02_poo/clase_06_orden_bancaria.py
+- modulo_02_poo/clase_06_lista_ordenes.py
