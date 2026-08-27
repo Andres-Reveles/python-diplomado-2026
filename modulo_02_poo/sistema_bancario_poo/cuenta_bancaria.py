@@ -54,3 +54,15 @@ class CuentaBancaria:
 
         self.activa = False
         print("Cuenta dada de baja correctamente")
+
+    def convertir_a_diccionario(self):
+        """
+        Convierte el objeto CuentaBancaria a diccionario
+        para poder guardarlo en JSON.
+        """
+        return {
+            "numero_cuenta": self.numero_cuenta,
+            "titular": self.titular,
+            "saldo": self.saldo,
+            "activa": self.activa
+        }

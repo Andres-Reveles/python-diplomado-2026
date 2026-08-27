@@ -8,9 +8,13 @@ from cuenta_servicio import (
     dar_de_baja_cuenta
 )
 from reportes import mostrar_reporte_general
+from persistencia import guardar_cuentas, cargar_cuentas
 
 
-print("=== Sistema bancario POO - Proyecto parcial ===")
+ARCHIVO_CUENTAS = "cuentas_bancarias.json"
+
+
+print("=== Sistema bancario POO final ===")
 
 
 def mostrar_menu():
@@ -22,14 +26,18 @@ def mostrar_menu():
     print("5. Retirar")
     print("6. Dar de baja cuenta")
     print("7. Reporte general")
-    print("8. Salir")
+    print("8. Guardar cambios")
+    print("9. Salir")
 
 
-cuentas = [
-    CuentaBancaria("001", "Andrés Reveles", 1000.0),
-    CuentaBancaria("002", "Juan Pérez", 2500.0),
-    CuentaBancaria("003", "María López", 500.0)
-]
+cuentas = cargar_cuentas(ARCHIVO_CUENTAS)
+
+if len(cuentas) == 0:
+    cuentas = [
+        CuentaBancaria("001", "Andrés Reveles", 1000.0),
+        CuentaBancaria("002", "Juan Pérez", 2500.0),
+        CuentaBancaria("003", "María López", 500.0)
+    ]
 
 
 while True:
@@ -59,6 +67,12 @@ while True:
         mostrar_reporte_general(cuentas)
 
     elif opcion == "8":
+        guardar_cuentas(ARCHIVO_CUENTAS, cuentas)
+        print("Cambios guardados correctamente")
+
+    elif opcion == "9":
+        guardar_cuentas(ARCHIVO_CUENTAS, cuentas)
+        print("Cambios guardados correctamente")
         print("Saliendo del sistema")
         break
 

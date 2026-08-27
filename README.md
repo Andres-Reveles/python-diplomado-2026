@@ -572,3 +572,22 @@ También reforcé el uso de clases, objetos, métodos, self, constructores, list
 - modulo_02_poo/sistema_bancario_poo/entradas.py
 - modulo_02_poo/sistema_bancario_poo/cuenta_servicio.py
 - modulo_02_poo/sistema_bancario_poo/reportes.py
+
+## Módulo 2 - POO en Python I
+### Clase 4 - Sistema bancario POO final
+Fecha de trabajo: Sábado 22/08/2026
+
+En esta clase cerré el primer proyecto fuerte del Módulo 2: un sistema bancario simple usando Programación Orientada a Objetos.
+
+El sistema permite registrar cuentas bancarias, mostrar cuentas, buscar cuentas por número, realizar depósitos, realizar retiros, dar de baja lógica a una cuenta, generar reportes generales y guardar/cargar información usando archivos JSON.
+
+También aprendí a convertir objetos a diccionarios para poder guardarlos en JSON y a reconstruir objetos a partir de diccionarios cargados desde un archivo.
+
+### Evidencia
+- modulo_02_poo/sistema_bancario_poo/main.py
+- modulo_02_poo/sistema_bancario_poo/cuenta_bancaria.py
+- modulo_02_poo/sistema_bancario_poo/entradas.py
+- modulo_02_poo/sistema_bancario_poo/cuenta_servicio.py
+- modulo_02_poo/sistema_bancario_poo/reportes.py
+- modulo_02_poo/sistema_bancario_poo/persistencia.py
+- modulo_02_poo/sistema_bancario_poo/cuentas_bancarias.json
